@@ -11,7 +11,7 @@ const MobileMenu = (props: Props) => {
   return (
     <>
       <span
-        className={`bg-black fixed top-0 bottom-0 transition-all duration-300 ease-in-out opacity-10 z-20 h-full w-1/3 pointer-events-none ${
+        className={`bg-black fixed top-0 bottom-0 transition-all duration-300 ease-in-out opacity-30 z-20 h-full w-1/3 pointer-events-none ${
           props.open ? 'left-0' : '-left-full'
         }`}
       ></span>

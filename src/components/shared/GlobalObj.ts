@@ -19,7 +19,7 @@ export const GlobalObj = {
       mobile: bannerMobile,
       alt: 'Hero Image',
     },
-    list: {
+    news: {
       title: 'New',
       items: [
         {
