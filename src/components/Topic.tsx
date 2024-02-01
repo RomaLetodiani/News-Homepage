@@ -18,14 +18,14 @@ const Topic = (props: Props) => {
           alt={props.img.alt}
         />
       </div>
-      <div className="w-2/3 flex flex-col justify-between">
+      <div className="w-2/3 flex flex-col justify-around lg:justify-between">
         <h3 className="text-dark-gray-blue text-3xl md:text-[clamp(1.5rem,2.5vw,2.5rem)] leading-7 font-black opacity-50">
           0{props.id}
         </h3>
-        <h4 className="text-very-dark-blue hover:text-soft-red text-lg md:text-[clamp(1rem,1.5vw,1.3rem)] font-bold">
+        <h4 className="text-very-dark-blue hover:text-soft-red text-lg md:text-[clamp(1rem,1.2vw,1.1rem)] font-bold">
           {props.title}
         </h4>
-        <p className="text-dark-gray-blue tracking-wider leading-relaxed">
+        <p className="text-dark-gray-blue text-sm tracking-wider leading-relaxed">
           {props.desc}
         </p>
       </div>

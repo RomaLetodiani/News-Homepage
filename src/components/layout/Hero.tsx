@@ -18,12 +18,12 @@ const Hero = () => {
             />
           </div>
           <div className="flex flex-col md:flex-row gap-5 md:gap-10">
-            <h1 className="text-very-dark-blue font-bold text-[clamp(2.5rem,4vw,4rem)] font-sans leading-[4rem] flex-1">
+            <h1 className="text-very-dark-blue font-bold text-[clamp(3rem,5vw,4rem)] font-sans leading-[4rem] flex-1">
               {hero.title}
             </h1>
             <div className="flex-1 flex flex-col items-start gap-5 md:gap-10">
               <p className="text-dark-gray-blue">{hero.desc}</p>
-              <button className="text-off-white px-10 py-3 text-lg hover:bg-soft-red bg-very-dark-blue">
+              <button className="text-off-white px-12 py-3 text-lg bg-soft-red hover:bg-very-dark-blue">
                 {hero.button}
               </button>
             </div>
